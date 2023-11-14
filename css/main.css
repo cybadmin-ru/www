@@ -1,0 +1,32 @@
+* {
+  box-sizing: border-box;
+}
+body {
+  font-size: 14px;
+}
+.v1_3 {
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background: rgba(255,255,255,1);
+  opacity: 1;
+  overflow: hidden;
+}
+.v1_4 {
+  color: rgba(39,23,91,1);
+  font-family: Vladivostok;
+  font-weight: Bold;
+  font-size: 32px;
+  opacity: 1;
+  text-align: left;
+}
+.v6_2 {
+  color: rgba(0,0,0,1);
+  font-family: Volkhov;
+  font-weight: Regular;
+  font-size: 14px;
+  opacity: 1;
+  text-align: center;
+}
