@@ -6,6 +6,22 @@ body {
   color: hsla(0,0%,100%,.8);
   font-size: 14px;
 }
+.connection-status {
+	background-color: #1b1b20;
+	color: hsla(0,0%,100%,.8);
+}
+.connection-status__container {
+	align-items: center;
+	display: flex;
+	margin-left: auto;
+	margin-right: auto;
+	max-width: 1080px;
+	padding: 4px 12px;
+	width: 100%;
+}
+.connection-status__container div:first-child {
+	flex-grow: 1;
+}
 .v1_3 {
   height: 100vh;
   display: flex;
