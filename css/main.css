@@ -12,12 +12,10 @@ body {
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  background: rgba(255,255,255,1);
   opacity: 1;
   overflow: hidden;
 }
 .v1_4 {
-  color: rgba(39,23,91,1);
   font-family: Vladivostok;
   font-weight: Bold;
   font-size: 32px;
