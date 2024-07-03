@@ -2,6 +2,8 @@
   box-sizing: border-box;
 }
 body {
+  background: #29292e;
+  color: hsla(0,0%,100%,.8);
   font-size: 14px;
 }
 .v1_3 {
