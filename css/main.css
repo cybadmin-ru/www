@@ -5,6 +5,7 @@ body {
   background: #29292e;
   color: hsla(0,0%,100%,.8);
   font-size: 14px;
+  font-family: Vladivostok, monospace;
 }
 .connection-status {
 	background-color: #1b1b20;
