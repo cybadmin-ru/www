@@ -1,35 +1,25 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
   <head>
-    <link
-      href="https://fonts.googleapis.com/css?family=Vladivostok&display=swap"
-      rel="stylesheet"
-    />
-    <link
-      href="https://fonts.googleapis.com/css?family=Volkhov&display=swap"
-      rel="stylesheet"
-    />
     <link href="./css/main.css" rel="stylesheet" />
     <title>Cybadmin</title>
   </head>
   <body>
-    <nav id="header">
-	<ul class="navigation">
-        <li class="navigation__item">
-            <a href="/en/" class="logo">
-                Cybadmin
-            </a>
-        </li>
-        
-    </ul>
-</nav>
-	  <main>
-		  <section class="hero">
-			  <div class="hero__content">
-				  <p></p>
-			  </div>
-		  </section>
-	  </main>
-    
+    <pre>
+      <output>
+          HTTP/1.1 200 OK
+          Date: <span id="resDate"></span>
+          Content-Type: text/html; charset=UTF-8
+          Content-Length: 701
+
+          <address>
+              <a href="mailto:support@cybadmin.ru">support@cybadmin.ru</a><br>
+         </address>
+      </output>
+    </pre>
+    <script>
+      const d = new Date().toUTCString()
+      document.getElementById('resDate').innerHTML = d
+    </script>
   </body>
 </html>
